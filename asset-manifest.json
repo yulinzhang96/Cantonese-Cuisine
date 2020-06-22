@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Cantonese-Cuisine/static/css/main.1a45568c.chunk.css",
+    "main.js": "/Cantonese-Cuisine/static/js/main.0fb93691.chunk.js",
+    "main.js.map": "/Cantonese-Cuisine/static/js/main.0fb93691.chunk.js.map",
+    "runtime-main.js": "/Cantonese-Cuisine/static/js/runtime-main.55e25006.js",
+    "runtime-main.js.map": "/Cantonese-Cuisine/static/js/runtime-main.55e25006.js.map",
+    "static/js/2.c07ec10f.chunk.js": "/Cantonese-Cuisine/static/js/2.c07ec10f.chunk.js",
+    "static/js/2.c07ec10f.chunk.js.map": "/Cantonese-Cuisine/static/js/2.c07ec10f.chunk.js.map",
+    "index.html": "/Cantonese-Cuisine/index.html",
+    "precache-manifest.f7e28a828549aea4406dd193a5ca0a83.js": "/Cantonese-Cuisine/precache-manifest.f7e28a828549aea4406dd193a5ca0a83.js",
+    "service-worker.js": "/Cantonese-Cuisine/service-worker.js",
+    "static/css/main.1a45568c.chunk.css.map": "/Cantonese-Cuisine/static/css/main.1a45568c.chunk.css.map",
+    "static/js/2.c07ec10f.chunk.js.LICENSE.txt": "/Cantonese-Cuisine/static/js/2.c07ec10f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55e25006.js",
+    "static/js/2.c07ec10f.chunk.js",
+    "static/css/main.1a45568c.chunk.css",
+    "static/js/main.0fb93691.chunk.js"
+  ]
+}
