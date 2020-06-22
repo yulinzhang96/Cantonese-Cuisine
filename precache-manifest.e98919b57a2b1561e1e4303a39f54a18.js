@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d41516d42ea21cc56b639d7ddaf24d24",
+    "revision": "673331bdddd2a22df4b6903065019871",
     "url": "/Cantonese-Cuisine/index.html"
   },
   {
-    "revision": "f8f7b35fc7f5a7205012",
-    "url": "/Cantonese-Cuisine/static/css/main.1a45568c.chunk.css"
+    "revision": "5ba0285b389e3e7fafe2",
+    "url": "/Cantonese-Cuisine/static/css/main.b9429121.chunk.css"
   },
   {
     "revision": "7130ac136ea7e75d133c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cantonese-Cuisine/static/js/2.c07ec10f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8f7b35fc7f5a7205012",
+    "revision": "5ba0285b389e3e7fafe2",
     "url": "/Cantonese-Cuisine/static/js/main.0fb93691.chunk.js"
   },
   {

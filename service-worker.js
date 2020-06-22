@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Cantonese-Cuisine/precache-manifest.f7e28a828549aea4406dd193a5ca0a83.js"
+  "/Cantonese-Cuisine/precache-manifest.e98919b57a2b1561e1e4303a39f54a18.js"
 );
 
 self.addEventListener('message', (event) => {
