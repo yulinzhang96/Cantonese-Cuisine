@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import CardList from './components/card-list/card-list.component';
+import SearchBox from './components/search-box/search-box.component';
+import dishes from './dishes/dishes';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      dishes: [],
+      searchField: ''
+    };
+  }
+
+  componentDidMount() {
+    this.setState({ dishes : dishes });
+  }
+
+  onSearchChange = (event) => {
+    this.setState({ searchField: event.target.value });
+  };
+
+  render() {
+    const { dishes, searchField } = this.state;
+    const filteredDishes = dishes.filter(dish =>
+      dish.name.toLowerCase().includes(searchField.toLowerCase())
+    );
+
+    return (
+      <div className='App'>
+        <h1>Cantonese Cusine</h1>
+        <SearchBox onSearchChange={this.onSearchChange} />
+        <CardList dishes={filteredDishes} />
+        <footer>© 2020 Yulin Zhang.</footer>
+      </div>
+    );
+  }
 }
 
 export default App;
